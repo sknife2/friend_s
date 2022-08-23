@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">app1.0</string>
+    <string name="calculator">简单计算器</string>
+    <string name="zero">0</string>
+    <string name="first_short">first</string>
+    <string name="first_long">启停活动</string>
+    <string name="second_short">first</string>
+    <string name="second_long">来回跳转</string>
+    <string name="third_short">first</string>
+    <string name="third_long">登陆返回</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="username">用户昵称</string>
+    <string name="release_time">发布时间</string>
+</resources>

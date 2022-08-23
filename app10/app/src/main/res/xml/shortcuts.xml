@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andriod="http://schemas.android.com/tools">
+    <shortcut
+
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="@string/first_short"
+        android:shortcutLongLabel="@string/first_long"
+        android:shortcutShortLabel="@string/first_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.app10"
+            android:targetClass="com.example.app10.Dynamic_View"
+            />
+        <categories andriod:name="andriod.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="@string/second_short"
+        android:shortcutLongLabel="@string/second_long"
+        android:shortcutShortLabel="@string/second_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.app10"
+            android:targetClass="com.example.app10.Dynamic_View"
+            />
+        <categories andriod:name="andriod.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="@string/third_short"
+        android:shortcutLongLabel="@string/third_long"
+        android:shortcutShortLabel="@string/third_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.app10"
+            android:targetClass="com.example.app10.Dynamic_View"
+            />
+        <categories andriod:name="andriod.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--          可编辑区        -->
+    <LinearLayout
+        android:id="@+id/basic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="56dp"
+        android:orientation="vertical">
+
+        <!--         搜索图标^框       -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <!--            搜索框            -->
+            <ImageButton
+                android:id="@+id/search"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dynamic_search_img9"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/find_for"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_selector"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="5dp"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--          母版动态        -->
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommentsView">
+        <attr name="first_person" format="string" />
+        <attr name="second_person" format="string" />
+        <attr name="message" format="string" />
+        <attr name="view_color" format="color" />
+        <attr name="view_dim" format="dimension" />
+
+    </declare-styleable>
+</resources>
